@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-header{
+    background-color: #129799;
+    height: 475px;
+}
+
+.contacts-header{
+    display: flex;
+    justify-content: center;
+}
+
+.p-header{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #f7f7f7;
+    font-size: 30px;
+}
+
+.p-header:hover{
+    font-weight: 500;
+}
+
+.title-header{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    height: 326px;
+    color: #f7f7f7;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.box-title-header{
+    display: flex;
+    justify-content: center;
+}
+
+.img-title-header{
+    display: flex;
+    align-items: center;
+    width: 640px;
+    height: 320px;
+}
+
+.options-header-box{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.options-header-p{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    width: 270px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #f7f7f7;
+    font-size: 30px;
+}
+
+.options-header-p:hover{
+    font-weight: 500;
+}
+
+main{
+    background-color: #ffa185;
+}
+
+h2{
+    color: #ffffff;
+}
+
+.main-title{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 240px;
+    justify-content: center;
+}
+.main-text{
+    display: flex;
+    width: 925px;
+    justify-content: space-evenly;
+    height: 70px;
+}
+
+.box-img{
+    display: flex;
+    width: 1343px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img{
+    margin: 15px;
+}
+
+.more{
+    display: flex;
+    width: 1343px;
+    height: 50px;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #129799;
+    height: 200px;
+}
+
+.box-img-footer{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.img-margin{
+    margin: 15px;
+}
+
+.contacts-footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p-footer{
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #f7f7f7;
+    font-size: 30px;
+}
+
+.p-footer:hover{
+    font-weight: 500;
+}
